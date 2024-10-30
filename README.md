@@ -30,6 +30,8 @@ These types of dialog boxes are implemented (though not all are necessarily comp
 - timebox
 - yesno (yes/no)
 
+On *Windows*, we use the **cdialog port**[^2]. On *Linux*, we use the **dialog** installed on the system.
+
 This is a rewrite for PHP 8.3 (with improvements and new stuff) of the wrapper [Dialog PHP](https://github.com/everton3x/dialog-php).
 
 ## Licence
@@ -41,3 +43,4 @@ This library is licensed under the MIT License (see the [LICENSE file](LICENCE))
 ## Footnotes
 
 [^1]: [dialog(1) - Linux man page](https://linux.die.net/man/1/dialog)
+[^2]: [cdialog for Win](https://andrear.altervista.org/home/cdialog.php)
